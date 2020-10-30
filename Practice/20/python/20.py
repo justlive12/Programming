@@ -1,35 +1,28 @@
 class Drink:
     def __init__(self):
-            self.price  = 0.0
-            self.volume = 0.0
-            self.name   = ""
+        self.price = 0.0
+        self.volume = 0.0
+        self.name = ""
 
-balance = int(input("Введите баланс: "))
-drink_amount = int(input("Введите количество напитков: "))
+budget = int(input('Сколько у вас денег: '))
+number_of_species = int(input('Количество видов: '))
 
-best = Drink()
-inpt = Drink()
+best_product = Drink()
+input_info = Drink()
 
-for i in range(drink_amount):
-	inpt.name   = input("Имя напитка: ")
-	inpt.price  = int(input("Цена напитка: "))
-	inpt.volume = int(input("Объём напитка: "))
+for i in range(number_of_species):
+    name, price, volume = input('Введите название, цену и объем: ').split()
+    input_info.name = name
+    input_info.price = int(price)
+    input_info.volume = int(volume)
 
-	liters = (balance // inpt.price) * inpt.volume
-	if liters == 0:
-		continue
-	
-	if best.price == 0:
-		best = inpt
-		continue
-	
-	best_liters = (balance // best.price) * best.volume
-	if liters > best_liters:
-		best = inpt
+    liters = (budget // input_info.price) * input_info.volume
+    if best_product.volume < liters:
+        best_product.volume = liters
+        best_product.name = name
+        best_product.price = input_info.price
+        bottles = int(best_product.volume / input_info.volume)
 
-if best.price == 0:
-	print(-1)
-else:
-    bottles = balance // best.price
-    print("{} {}\n{}\n{}".format(best.name, bottles, bottles * best.volume,
-        balance - best.price * bottles))
+print(best_product.name, bottles)
+print(best_product.volume)
+print(budget - (bottles * best_product.price))

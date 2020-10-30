@@ -1,4 +1,3 @@
-x, v, t = map(int, input(': ').split())
+x0, v0, t = map(int, input(': ').split())
 a = 9.8
-print(x + v * t - a * t * t / 2)
-print(x + v * t - 1/2 * a * t * t)
+print(abs(x0 - (x0 + v0 * t - a * t * t / 2)))

@@ -1,66 +1,81 @@
 ﻿#include "pch.h"
 #include <iostream>
-#include <map>
-#include <iterator>
 #include <string>
+#include <map>
+#include <math.h>
+#include <sstream>
 
-void print_permutations(std::map<char, int>& usages,
-	std::string& str,
-	char(&result)[],
-	int last,
-	int index,
-	int repetition_left)
-{
-	int length = str.length();
-
-	std::map<char, int>::iterator itr;
-
-	for (itr = usages.begin(); itr != usages.end(); ++itr) {
-		if (itr->second > repetition_left)
-			continue;
-		result[index] = itr->first;
-		itr->second++;
-
-		if (last == index)
-			std::cout << result << " ";
-		else {
-			int is_repeated = itr->second > 1;
-			print_permutations(usages, str, result, last,
-				index + 1, repetition_left - is_repeated);
-		}
-		itr->second--;
-	}
-
-	return;
-}
-
-
-void start(int n, std::string str) {
-	if (n < 1 || n > 9) {
-		std::cerr << "Invalid 'n'! Expected 'n' in bounds [1, 9], got " << n
-			<< "." << std::endl;
-		return;
-	}
-
-	char result[n];
-
-	std::map<char, int> usages;
-	for (char ch : str) {
-		usages.insert(
-			std::pair<char, int>(ch, 0)
-		);
-	}
-
-	print_permutations(usages, str, result, n - 1, 0, n - str.length());
-	std::cout << std::endl;
-}
+using namespace std;
 
 int main() {
-	std::cout << "Enter number and then characters in password." << std::endl;
+	setlocale(LC_ALL, "ru");
+	stringstream container;
+	int num, str_size, pow_lis, lr;
+	string str;
+	cout << "Введите длину пароля: ";
+	cin >> num;
+	cout << "Введите последовательность букв: ";
+	cin >> str;
 
-	int n;
-	std::string str;
-	std::cin >> n >> str;
+	str_size = str.length();
+	string *k = new string[str_size];
+	for (int i = 0; i < str_size; i++) {
+		k[i] = str[i];
+	}
 
-	start(n, str);
+	pow_lis = pow(str_size, num);
+	int *lis = new int[pow_lis];
+	for (int i = 0; i < pow_lis; i++) {
+		lis[i] = i;
+	}
+
+	string *num_el = new string[str_size];
+	for (int i = 0; i < str_size; i++) {
+		num_el[i] = to_string(i);
+	}
+
+	string *lis_str = new string[pow_lis];
+
+	for (int i = 0; i < pow_lis; i++) {
+		int el_lis = lis[i];
+		string ser = "", res;
+		while (el_lis != 0) {
+			ser += to_string(el_lis % str_size);
+			el_lis /= str_size;
+		}
+		for (int i = ser.length() - 1; i >= 0; i--) {
+			res += ser[i];
+		}
+		lr = res.length();
+		if (lr != num) {
+			string res_lr;
+			for (int i = 0; i < num - lr; i++) {
+				res_lr += "0";
+			}
+			res = res_lr + res;
+		}
+		lis_str[i] = res;
+	}
+	
+	for (int i = 0; i < pow_lis; i++) {
+		int kr = 1;
+		string lis_i = lis_str[i];
+		for (int j = 0; j < str_size; j++) {
+			if (lis_i.find(to_string(j)) != string::npos) kr *= 1;
+			else kr *= 0;
+		}
+		if (kr == 1) {
+			string res = "";
+			for (int i = 0; i < str_size; i++) {
+				container << lis_i[i];
+				int a;
+				container >> a;
+				container.clear();
+				res += k[a];
+			}
+			cout << res << " ";
+		}
+	}
+
+	return 0;
 }

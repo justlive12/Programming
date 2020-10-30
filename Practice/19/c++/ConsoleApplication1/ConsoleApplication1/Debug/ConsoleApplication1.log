@@ -1,4 +1,3 @@
 ﻿  ConsoleApplication1.cpp
-c:\users\user\desktop\programming\practice\19\c++\consoleapplication1\consoleapplication1\consoleapplication1.cpp(45): error C2131: выражение не определяется константой
-  c:\users\user\desktop\programming\practice\19\c++\consoleapplication1\consoleapplication1\consoleapplication1.cpp(45): note: сбой вызван чтением переменной вне срока ее существования
-  c:\users\user\desktop\programming\practice\19\c++\consoleapplication1\consoleapplication1\consoleapplication1.cpp(45): note: см. использование "n"
+c:\users\user\desktop\programming\practice\19\c++\consoleapplication1\consoleapplication1\consoleapplication1.cpp(26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\user\Desktop\Programming\Practice\19\c++\ConsoleApplication1\Debug\ConsoleApplication1.exe
