@@ -6,22 +6,22 @@
 ​
 | Практические | Лабораторные |
 | ------------ | ------------ |
-| Практическая 1 - [[C++]](./Practice/01/C++/) [[Python]](./Practice/01/Python/) | [Лабораторная 1](./Lab/01/ReadMe.md) |
-| Практическая 2 - [[C++]](./Practice/02/C++/) [[Python]](./Practice/02/Python/) |  |
-| Практическая 3 - [[C++]](./Practice/03/C++/) [[Python]](./Practice/03/Python/) |  |
-| Практическая 4 - [[C++]](./Practice/04/C++/) [[Python]](./Practice/04/Python/) |  |
-| Практическая 5 - [[C++]](./Practice/05/C++/) [[Python]](./Practice/05/Python/) |  |
-| Практическая 6 - [[C++]](./Practice/06/C++/) [[Python]](./Practice/06/Python/) |  |
-| Практическая 7 - [[C++]](./Practice/07/C++/) [[Python]](./Practice/07/Python/) |  |
-| Практическая 8 - [[C++]](./Practice/08/C++/) [[Python]](./Practice/08/Python/) |  |
-| Практическая 9 - [[C++]](./Practice/09/C++/) [[Python]](./Practice/09/Python/) |  |
-| Практическая 10 - [[C++]](./Practice/10/C++/) [[Python]](./Practice/10/Python/) |  |
-| Практическая 11 - [[C++]](./Practice/11/C++/) [[Python]](./Practice/11/Python/) |  |
-| Практическая 12 - [[C++]](./Practice/12/C++/) [[Python]](./Practice/12/Python/) |  |
-| Практическая 13 - [[C++]](./Practice/13/C++/) [[Python]](./Practice/13/Python/) |  |
-| Практическая 14 - [[C++]](./Practice/14/C++/) [[Python]](./Practice/14/Python/) |  |
-| Практическая 15 - [[C++]](./Practice/15/C++/) [[Python]](./Practice/15/Python/) |  |
-| Практическая 16 - [[C++]](./Practice/16/C++/) [[Python]](./Practice/16/Python/) |  |
-| Практическая 17 - [[C++]](./Practice/17/C++/) [[Python]](./Practice/17/Python/) |  |
-| Практическая 18 - [[C++]](./Practice/18/C++/) [[Python]](./Practice/18/Python/) |  |
-| Практическая 19 - [[C++]](./Practice/19/C++/) [[Python]](./Practice/19/Python/) |  |
+| Практическая 1 - [[C++]](./Practice/01/c++/) [[Python]](./Practice/01/python/) | [Лабораторная 1](./Lab/01/ReadMe.md) |
+| Практическая 2 - [[C++]](./Practice/02/c++/) [[Python]](./Practice/02/python/) |  |
+| Практическая 3 - [[C++]](./Practice/03/c++/) [[Python]](./Practice/03/python/) |  |
+| Практическая 4 - [[C++]](./Practice/04/c++/) [[Python]](./Practice/04/python/) |  |
+| Практическая 5 - [[C++]](./Practice/05/c++/) [[Python]](./Practice/05/python/) |  |
+| Практическая 6 - [[C++]](./Practice/06/c++/) [[Python]](./Practice/06/python/) |  |
+| Практическая 7 - [[C++]](./Practice/07/c++/) [[Python]](./Practice/07/python/) |  |
+| Практическая 8 - [[C++]](./Practice/08/c++/) [[Python]](./Practice/08/python/) |  |
+| Практическая 9 - [[C++]](./Practice/09/c++/) [[Python]](./Practice/09/python/) |  |
+| Практическая 10 - [[C++]](./Practice/10/c++/) [[Python]](./Practice/10/python/) |  |
+| Практическая 11 - [[C++]](./Practice/11/c++/) [[Python]](./Practice/11/python/) |  |
+| Практическая 12 - [[C++]](./Practice/12/c++/) [[Python]](./Practice/12/python/) |  |
+| Практическая 13 - [[C++]](./Practice/13/c++/) [[Python]](./Practice/13/python/) |  |
+| Практическая 14 - [[C++]](./Practice/14/c++/) [[Python]](./Practice/14/python/) |  |
+| Практическая 15 - [[C++]](./Practice/15/c++/) [[Python]](./Practice/15/python/) |  |
+| Практическая 16 - [[C++]](./Practice/16/c++/) [[Python]](./Practice/16/python/) |  |
+| Практическая 17 - [[C++]](./Practice/17/c++/) [[Python]](./Practice/17/python/) |  |
+| Практическая 18 - [[C++]](./Practice/18/c++/) [[Python]](./Practice/18/python/) |  |
+| Практическая 19 - [[C++]](./Practice/19/c++/) [[Python]](./Practice/19/python/) |  |
