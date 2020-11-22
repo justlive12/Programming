@@ -1,0 +1,6 @@
+﻿  weather.cpp
+c:\users\user\desktop\programming\lab\01\c++\weather\weather.cpp(73): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\programming\lab\01\c++\weather\weather.cpp(145): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\programming\lab\01\c++\weather\weather.cpp(178): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\programming\lab\01\c++\weather\weather.cpp(37): warning C4715: get_time: значение возвращается не при всех путях выполнения
+  weather.vcxproj -> C:\Users\user\Desktop\Programming\Lab\01\C++\Debug\weather.exe
