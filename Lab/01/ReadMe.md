@@ -302,19 +302,19 @@ root.mainloop()
 
 Скриншот виджета:
 <p align="center">
-![](./images/widget.jpg)
+	<img src="images/widget.jpg">
 </p>
 <p align='center'>Рисунок 2. Виджет на localhost:3000</p>
 
 Скриншот ngrok.exe:
 <p align="center">
-![](./images/ngrok_cons.jpg)
+	<img src="images/ngrok_cons.jpg">
 </p>
 <p align='center'>Рисунок 3. ngrok.exe</p>
 
 Скриншот виджета на ngrok:
 <p align="center">
-![](./images/ngrok.jpg)
+	<img src="images/ngrok.jpg">
 </p>
 <p align='center'>Рисунок 4. Виджет на ngrok</p>
 
