@@ -7,7 +7,6 @@ def reload_data(event=None):
 		response = requests.get('http://localhost:3000/raw').content.decode("utf8")
         
 		inf = json.loads(response)
-        
 		desccription.config(text=str(inf["description"]))
 		temp.config(text=str(inf["temp"]) + "°C")
 	except requests.exceptions.ConnectionError:
