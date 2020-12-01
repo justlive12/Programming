@@ -296,7 +296,7 @@ root.mainloop()
 
 Скриншот клиента:
 <p align="center">
-![](./images/klient.jpg)
+	<img src="/images/klient.jpg">
 </p>
 <p align='center'>Рисунок 1. Результат работы клиентской программы</p>
 
