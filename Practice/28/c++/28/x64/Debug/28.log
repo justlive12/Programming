@@ -1,0 +1,4 @@
+﻿  28.cpp
+C:\Users\Эмир\Desktop\programming\Practice\28\c++\28\28.cpp(8,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Эмир\Desktop\programming\Practice\28\c++\28\28.cpp(26,21): warning C4018: <=: несоответствие типов со знаком и без знака
+  28.vcxproj -> C:\Users\Эмир\Desktop\programming\Practice\28\c++\x64\Debug\28.exe

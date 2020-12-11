@@ -1,0 +1,5 @@
+﻿  28.cpp
+C:\Users\Эмир\Desktop\28\28\28.cpp(14,14): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Эмир\Desktop\28\28\28.cpp(23,11): warning C4804: %: небезопасное использование типа "bool" в операции
+C:\Users\Эмир\Desktop\28\28\28.cpp(28,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  28.vcxproj -> C:\Users\Эмир\Desktop\28\Debug\28.exe
