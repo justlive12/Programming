@@ -3,7 +3,7 @@
 
 typedef std::map<std::string, std::string> new_Map;
 
-json session_list;
+json session_list; 
 new_Map session_list_map;
 bool help_pressed = false;
 
@@ -23,19 +23,19 @@ json buttons_to_help = {
 };
 
 void webhooks_resp(std::string user_id, json cart) {
-	json j_cart = json::array();
+	json j_cart = json::array(); 
 
-	for (std::string item : cart) {
+	for (std::string item : cart) { 
 		std::string sep = u8R"( )";
-		std::string temp;
+		std::string temp; 
 		size_t sep_size = sep.length();
 		json jcart_temp = json::array();
 		while (true) {
-			temp = item.substr(0, item.find(sep));
+			temp = item.substr(0, item.find(sep)); 
 			if (temp.size() != 0) {
-				jcart_temp.push_back(temp);
+				jcart_temp.push_back(temp); 
 			}
-			if (temp.size() == item.size()) {
+			if (temp.size() == item.size()) { 
 				break;
 			}
 			else {
@@ -51,8 +51,8 @@ void webhooks_resp(std::string user_id, json cart) {
 		{"check", j_cart}
 	};
 
-	for (std::string link : cache) {
-		findAndRepl(link, "https://", "http://");
+	for (std::string link : cache) { 
+		findAndRepl(link, "https://", "http://"); 
 
 		const int http_protocol_size = 7;
 
@@ -110,8 +110,8 @@ json gen_response(const std::string& text,
 }
 
 void request_processing(const Request& req, Response& res) {
-	json j = json::parse(req.body);
-	json answer;
+	json j = json::parse(req.body); 
+	json answer; 
 
 	std::string session_id = j["session"]["session_id"];
 
@@ -190,7 +190,7 @@ void request_processing(const Request& req, Response& res) {
 				std::string text = u8R"(Заходите ещё)";
 				webhooks_resp(j["session"]["user"]["user_id"], session_list[session_id]["cart"]);
 				
-				json arr = json::object();
+				json arr = json::object(); 
 				
 				for (auto session_old = session_list_map.begin(); session_old != session_list_map.end();)
 				{
@@ -199,17 +199,12 @@ void request_processing(const Request& req, Response& res) {
 						session_old = session_list_map.erase(session_old);
 					}
 					else if (session_id != session_old->first) {
-						std::cout << "aaa" << std::endl;
 						arr.push_back(session_list);
 					}
-					else
-					{
+					else {
 						++session_old;
 					}
 				}
-				session_list = arr;
-				json aaa = session_list_map;
-				std::cout << aaa << std::endl;
 				session_list = arr;
 				answer = gen_response(text, text, button_help, session_id, true);
 				res.set_content(answer.dump(), "text/json; charset=UTF-8");
@@ -272,13 +267,13 @@ void request_processing(const Request& req, Response& res) {
 			bool exists = false;
 
 
-			json arr = json::array();
+			json arr = json::array(); 
 			for (auto item_old : session_list[session_id]["cart"]) {
 				if (item != item_old) {
 					arr.push_back(item_old);
 				}
 				else {
-					exists = true;
+					exists = true; 
 				}
 			}
 			session_list[session_id]["cart"] = arr;

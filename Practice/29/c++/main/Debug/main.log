@@ -1,5 +1,4 @@
-﻿  BozoSort.cpp
-  main.cpp
+﻿  main.cpp
 C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(38,82): warning C4566: символ, представленный универсальным именем символа "\u2500", невозможно представить в текущей кодовой странице (1251)
 C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(39,16): warning C4566: символ, представленный универсальным именем символа "\u250C", невозможно представить в текущей кодовой странице (1251)
 C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(39,16): warning C4566: символ, представленный универсальным именем символа "\u2500", невозможно представить в текущей кодовой странице (1251)
@@ -57,5 +56,4 @@ C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(90,46): warn
 C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(90,46): warning C4566: символ, представленный универсальным именем символа "\u2534", невозможно представить в текущей кодовой странице (1251)
 C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(90,46): warning C4566: символ, представленный универсальным именем символа "\u2518", невозможно представить в текущей кодовой странице (1251)
 C:\Users\Эмир\Desktop\Programming\Practice\29\c++\main\main.cpp(96,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Создание кода...
   main.vcxproj -> C:\Users\Эмир\Desktop\Programming\Practice\29\c++\Debug\main.exe
