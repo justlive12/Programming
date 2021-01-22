@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Эмир\Desktop\Programming\Practice\30\c++\main\Header.h(130,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Эмир\Desktop\Programming\Practice\30\c++\main\Header.h(198,26): error C7555: для использования назначенных инициализаторов требуется по крайней мере "/std:c++latest"
+C:\Users\Эмир\Desktop\Programming\Practice\30\c++\main\Header.h(207,17): error C7555: для использования назначенных инициализаторов требуется по крайней мере "/std:c++latest"
+C:\Users\Эмир\Desktop\Programming\Practice\30\c++\main\Header.h(231,25): error C7555: для использования назначенных инициализаторов требуется по крайней мере "/std:c++latest"
+C:\Users\Эмир\Desktop\Programming\Practice\30\c++\main\Header.h(239,25): error C7555: для использования назначенных инициализаторов требуется по крайней мере "/std:c++latest"
