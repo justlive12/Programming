@@ -71,10 +71,10 @@
 </p>
 
 Изображение one_punch_man.png содержал в себе html документ с информацией: 
-<header>
+<header align="center">
 	<h1>Привет. Меня зовут <strong>Rick Astley</strong>.</h1>
 </header>
-<p>И я хочу поделиться с вами <strong>новым</strong> трейлером <strong>Grand Theft Auto VI</strong> уже сегодня.<br> Жмите на кнопу и приятного просмотра.</p>
+<p align="center">И я хочу поделиться с вами <strong>новым</strong> трейлером <strong>Grand Theft Auto VI</strong> уже сегодня.<br> Жмите на кнопу и приятного просмотра.</p>
 
 ![](images/board.png)
 <p align="center">
