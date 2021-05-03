@@ -45,7 +45,7 @@
 1) Push Button;
 2) Plain Text Edit;
 3) Label.
-После меняем их названия, также дизайн по своему усмотрению.
+<p>После меняем их названия, также дизайн по своему усмотрению.</p>
 
 ![](images/2.png)
 <p align="center">
@@ -71,9 +71,7 @@
 </p>
 
 Изображение one_punch_man.png содержал в себе html документ с информацией: 
-<header align="center">
-	<h1>Привет. Меня зовут <strong>Rick Astley</strong>.</h1>
-</header>
+<h1 align="center">Привет. Меня зовут <strong>Rick Astley</strong>.</h1>
 <p align="center">И я хочу поделиться с вами <strong>новым</strong> трейлером <strong>Grand Theft Auto VI</strong> уже сегодня.<br> Жмите на кнопу и приятного просмотра.</p>
 
 ![](images/board.png)
