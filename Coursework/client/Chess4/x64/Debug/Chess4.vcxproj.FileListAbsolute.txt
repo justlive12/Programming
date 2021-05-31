@@ -1,0 +1,6 @@
+C:\Users\Osbarn\Documents\Atom\Cpp\ChessSockets\Chess4\x64\Debug\Chess4.exe
+C:\Users\Osbarn\Documents\Atom\Cpp\ChessSockets\Chess4\x64\Debug\Chess4.pdb
+C:\Users\Osbarn\Documents\Atom\Kwork\Chess\Cpp_ChessSockets\Chess4\x64\Debug\Chess4.exe
+C:\Users\Osbarn\Documents\Atom\Kwork\Chess\Cpp_ChessSockets\Chess4\x64\Debug\Chess4.pdb
+C:\Users\Эмир\Desktop\Курсовая\Белое тестирование\Chess4\x64\Debug\Chess4.exe
+C:\Users\Эмир\Desktop\Курсовая\Белое тестирование\Chess4\x64\Debug\Chess4.pdb
